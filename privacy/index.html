@@ -54,12 +54,12 @@
     <li><strong>Companion-related data:</strong> pixel companion state or settings where they identify you or are tied to your account</li>
     <li><strong>ข้อมูลอุปกรณ์และเทคนิค:</strong> ข้อมูลที่จำเป็นต่อการให้บริการ เช่น ประเภทอุปกรณ์ ระบบปฏิบัติการ เวอร์ชันแอป ที่อยู่ IP บันทึกข้อผิดพลาดพื้นฐานที่จำเป็นต่อการแก้ไขปัญหา</li>
     <li><strong>Device and technical data:</strong> data reasonably needed to operate the service, such as device type, OS, app version, IP address, and basic error logs needed for troubleshooting</li>
-    <li><strong>ข้อมูลการยอมรับเอกสาร (เมื่อมีการบันทึก):</strong> ฉบับของนโยบายความเป็นส่วนตัวและ/หรือข้อกำหนดการใช้ที่คุณยอมรับ และเวลาที่ยอมรับ — หากแอปบันทึกเมื่อมีการเก็บความยินยอม/การยอมรับ</li>
-    <li><strong>Document acceptance metadata (when recorded):</strong> version of the Privacy Notice and/or Terms you accepted, and the time of acceptance — if the App records this when acceptance is collected</li>
+    <li><strong>ข้อมูลการยอมรับเอกสาร (เมื่อมีการบันทึก):</strong> ฉบับของนโยบายความเป็นส่วนตัวและ/หรือข้อกำหนดการใช้ที่คุณยอมรับ และเวลาที่ยอมรับ — เก็บเป็นข้อมูลบัญชี/การปฏิบัติตาม เพื่อเป็นหลักฐานการยอมรับ (หากแอปบันทึกเมื่อมีการเก็บการยอมรับ)</li>
+    <li><strong>Document acceptance metadata (when recorded):</strong> Privacy Notice and/or Terms version accepted and timestamp — stored as account/compliance metadata for evidence of acceptance, if the App records this when acceptance is collected</li>
   </ul>
   <div class="note">
-    <strong>ขอบเขตปัจจุบัน:</strong> แอปไม่มีการวิเคราะห์เพื่อการตลาด และไม่เก็บข้อมูลเกินจากที่ระบุด้านบนเพื่อให้บริการที่มีอยู่ตอนนี้
-    <p class="en" style="margin-top:0.5rem;"><strong>Current scope:</strong> the App has no marketing analytics and does not collect data beyond what is listed above for features available now.</p>
+    <strong>ขอบเขตปัจจุบัน:</strong> แอปมีเฉพาะบัญชี/การยืนยันตัวตน เซสชันโฟกัส ambient mix และ pixel companion — ไม่มี journal, Pro, feed, marketplace, การตลาด หรือการวิเคราะห์เพื่อการตลาด
+    <p class="en" style="margin-top:0.5rem;"><strong>Current scope only:</strong> account/auth, focus sessions, ambient mix, and pixel companion — no journal, Pro, feed, marketplace, marketing, or marketing analytics.</p>
   </div>
 
   <h2>3. วัตถุประสงค์และฐานกฎหมายที่อาจใช้</h2>
@@ -158,14 +158,14 @@
     <ul>
       <li>Privacy Notice สำหรับสโตร์ — ยืนยันตัวตนผู้ควบคุม ที่อยู่/ช่องทางติดต่อ และประเทศโฮสต์ (สิงคโปร์) ก่อนเผยแพร่</li>
       <li>ที่อยู่ — ยังเป็น placeholder; ต้องใส่ที่อยู่จริงก่อนขึ้นสโตร์</li>
-      <li>ผู้เยาว์ / PDPA — หากอนุญาตผู้ใช้อายุต่ำกว่า 20 ปี ต้องพิจารณาความยินยอมจากผู้ปกครองและข้อกำหนดเฉพาะเด็ก; อย่าถือว่า age gate 13 ปีเพียงอย่างเดียวเพียงพอ</li>
+      <li>ผู้เยาว์ / PDPA — age gate 13 ปี ≠ PDPA child compliance; หากอนุญาตผู้ใช้อายุต่ำกว่า 20 ปี ต้องพิจารณาความยินยอมจากผู้ปกครองและข้อกำหนดเฉพาะเด็ก</li>
       <li>การยอมรับเอกสาร — ยืนยันว่าแอปเก็บฉบับ/เวลาหรือไม่; map ฐานกฎหมายก่อนอ้าง</li>
       <li>ฐานกฎหมาย (มาตรา 24 พ.ร.บ.) — ยังเป็น «potential» ทุกข้อ ต้อง map ให้ครบก่อนเผยแพร่</li>
       <li>การโอนข้ามพรแดนไปสิงคโปร์ — ยืนยันมาตรการคุ้มครอง (SCC / adequacy / ข้อยกเว้น) ก่อนอ้างในฉบับสุดท้าย</li>
       <li>ระยะเก็บรักษา — กำหนดตัวเลขหรือเกณฑ์ที่ชัดเจน</li>
       <li>อย่าเพิ่ม marketing consent, ATT/IDFA, หรือฟีเจอร์ที่ยังไม่มี — อย่าใช้คำว่า «เป็นไปตาม PDPA» หรือ «ได้รับการอนุมัติทางกฎหมายแล้ว»</li>
       <li>Store-facing notice — confirm controller identity, address/contact, and host country (Singapore) before publication</li>
-      <li>Minors — if users under 20 are allowed, review parental consent and child-specific PDPA obligations; age gate alone is not sufficient</li>
+      <li>Minors — age gate 13 ≠ PDPA child compliance; if users under 20 allowed, review parental consent and child-specific PDPA obligations</li>
       <li>Document acceptance — confirm whether version/timestamp is stored; map lawful basis before stating</li>
       <li>Do not add marketing consent, ATT/IDFA, or unbuilt features; do not claim PDPA compliance or legal approval</li>
     </ul>
